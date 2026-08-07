@@ -6,7 +6,7 @@ static_data: ''
 polling_verb: get
 framework_version: latest
 serverless_language: ''
-polling_url: "https://www.hebcal.com/zmanim?cfg=json&sec=1&geonameid=5263045\r\nhttps://www.hebcal.com/hebcal?v=1&cfg=json&zip=53216&d=on&s=on&c=on&M=on&lg=a"
+polling_url: "https://www.hebcal.com/zmanim?cfg=json&sec=1&zip=53216\r\nhttps://www.hebcal.com/hebcal?v=1&cfg=json&zip=53216&year=now&d=on&s=on&c=on&M=on&lg=a"
 polling_headers: content-type=application/json
 polling_body: ''
 id: 167476
@@ -31,4 +31,5 @@ oauth_expiry_field_name: ''
 oauth_expiry_strategy: ''
 oauth_fixed_expiry_ms: ''
 name: Hebcal - Parasha
+description: ''
 refresh_interval: 720
