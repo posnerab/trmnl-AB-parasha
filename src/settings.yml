@@ -6,7 +6,7 @@ static_data: ''
 polling_verb: get
 framework_version: latest
 serverless_language: ''
-polling_url: "https://www.hebcal.com/zmanim?cfg=json&sec=1&zip=53216\r\nhttps://www.hebcal.com/hebcal?v=1&cfg=json&zip=53216&year=now&d=on&s=on&c=on&M=on&lg=a"
+polling_url: "https://www.hebcal.com/zmanim?cfg=json&sec=1&zip=53216\r\nhttps://www.hebcal.com/hebcal?v=1&cfg=json&zip=53216&year=now&d=on&s=on&c=on&M=on&maj=on&lg=a"
 polling_headers: content-type=application/json
 polling_body: ''
 id: 167476

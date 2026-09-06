@@ -14,8 +14,9 @@ function run(input) {
   return buildPayload(input);
 }
 
-function buildPayload(input) {
+function buildPayload(input, options) {
   const TZID = "America/Chicago";
+  const now = options && options.now ? new Date(options.now) : new Date();
 
   const PARASHA_MAP = {
     "Achrei Mot": "Acharei Mos",
@@ -118,7 +119,6 @@ function buildPayload(input) {
     return { error: "Missing Hebcal zmanim polling data" };
   }
 
-  const now = new Date();
   const today = formatDateParam(now);
   const todayWeekday = weekday(now);
   const times = parseTimes(zmanimData.times);
@@ -216,13 +216,29 @@ function buildPayload(input) {
   function findUpcomingParasha(data, currentDate, currentWeekday) {
     const daysUntilSaturday = (6 - currentWeekday + 7) % 7;
     const shabbosDate = formatDateParam(addDays(currentDate, daysUntilSaturday));
-    const item = (data && data.items || []).find((entry) => {
+    const items = (data && data.items) || [];
+    const parashaItem = items.find((entry) => {
       return entry.category === "parashat" && entry.date === shabbosDate;
     });
 
-    return normalizeParashaName(
-      (item && (item.title_orig || item.title || item.memo)) || "Unknown"
-    );
+    if (parashaItem) {
+      return normalizeParashaName(
+        parashaItem.title_orig || parashaItem.title || parashaItem.memo
+      );
+    }
+
+    const holidayReading = items.find((entry) => {
+      return entry.category === "holiday" &&
+        entry.date === shabbosDate &&
+        entry.leyning;
+    });
+
+    if (!holidayReading) return "Unknown";
+
+    return (holidayReading.title_orig || holidayReading.title || holidayReading.memo)
+      .replace(/^Rosh Hashana\b/, "Rosh Hashanah")
+      .replace(/\s+\d{4}$/, "")
+      .trim();
   }
 
   function isEarlyShabbosSeason(hdate) {
@@ -332,4 +348,8 @@ function buildPayload(input) {
       location
     };
   }
+}
+
+if (typeof module !== "undefined") {
+  module.exports = { buildPayload, run, transform };
 }
