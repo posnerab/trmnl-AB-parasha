@@ -2,6 +2,28 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 const { buildPayload } = require("../src/transform");
 
+for (const [source, expected] of [
+  ["Sukkot", "Succos"],
+  ["Sukkot I", "Succos I"],
+  ["Sukkot II", "Succos II"],
+  ["Sukkot III (CH''M)", "Succos III (CH''M)"],
+  ["Sukkot VII (Hoshana Raba)", "Succos VII (Hoshana Raba)"],
+  ["Shabbat Chol ha-Moed Sukkot", "Shabbos Chol HaMoed Succos"],
+  ["Succos I", "Succos I"]
+]) {
+  for (const category of ["holiday", "parashat"]) {
+    for (const field of ["title_orig", "title", "memo"]) {
+      test(`${category} ${field} normalizes ${source}`, () => {
+        const result = buildPayload(fixture([{
+          category, date: "2026-09-12", [field]: source,
+          leyning: { torah: "A special reading" }
+        }]), { now: "2026-09-06T10:00:00-05:00" });
+        assert.equal(result.parasha, expected);
+      });
+    }
+  }
+}
+
 function fixture(calendarItems) {
   return {
     IDX_0: {
