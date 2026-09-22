@@ -68,6 +68,7 @@ function buildPayload(input, options) {
     "Sh\u2019lach": "Shelach",
     "Shmini": "Shemini",
     "Shoftim": "Shoftim",
+    "Sukkot": "Succos",
     "Tazria": "Tazria",
     "Tazria-Metzora": "Tazria-Metzora",
     "Terumah": "Terumah",
@@ -235,7 +236,7 @@ function buildPayload(input, options) {
 
     if (!holidayReading) return "Unknown";
 
-    return (holidayReading.title_orig || holidayReading.title || holidayReading.memo)
+    return normalizeParashaName(holidayReading.title_orig || holidayReading.title || holidayReading.memo)
       .replace(/^Rosh Hashana\b/, "Rosh Hashanah")
       .replace(/\s+\d{4}$/, "")
       .trim();
