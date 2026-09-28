@@ -18,7 +18,28 @@ function buildPayload(input, options) {
   const TZID = "America/Chicago";
   const now = options && options.now ? new Date(options.now) : new Date();
 
+  // Corpus English/Ashkenazi aliases plus the established display spellings.
   const PARASHA_MAP = {
+    "Achrei Mos": "Acharei Mos",
+    "Bereshis": "Bereishis",
+    "Vaeschanan": "Va'eschanan",
+    "Shmini Atzeret": "Shemini Atzeres",
+    "Shmini Atzeres": "Shemini Atzeres",
+    "Shemini Atzeret": "Shemini Atzeres",
+    "Shavuot": "Shavuos",
+    "Simchat Torah": "Simchas Torah",
+    "Sukkos": "Succos",
+    "Rosh Hashana": "Rosh Hashanah",
+    "Tevet": "Teves",
+    "Birkat Hachamah": "Birkas HaChamah",
+    "Leil Selichot": "Leil Selichos",
+    "Purim Katan": "Purim Koton",
+    "LaBehemot": "LaBeheimos",
+    "Mevarchim": "Mevorchim",
+    "Shuva": "Shuvah",
+    "Ta'anit": "Ta'anis",
+    "Bechorot": "Bechoros",
+
     "Achrei Mot": "Acharei Mos",
     "Achrei Mot-Kedoshim": "Acharei Mos-Kedoshim",
     "Balak": "Balak",
@@ -201,9 +222,13 @@ function buildPayload(input, options) {
     if (PARASHA_MAP[cleaned]) return PARASHA_MAP[cleaned];
     if (PARASHA_MAP[ascii]) return PARASHA_MAP[ascii];
 
-    return Object.entries(PARASHA_MAP)
-      .sort((a, b) => b[0].length - a[0].length)
-      .reduce((result, [source, target]) => result.split(source).join(target), ascii);
+    // One pass prevents replacements from rewriting their own output (Naso/Nasso,
+    // Chayei Sara/Sarah). Boundaries preserve unknown words containing an alias.
+    const aliases = Object.keys(PARASHA_MAP)
+      .sort((a, b) => b.length - a.length)
+      .map((key) => key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    return ascii.replace(new RegExp(`\\b(?:${aliases.join("|")})\\b`, "g"),
+      (source) => PARASHA_MAP[source]);
   }
 
   function findHebrewDate(data, dateString) {
@@ -237,7 +262,6 @@ function buildPayload(input, options) {
     if (!holidayReading) return "Unknown";
 
     return normalizeParashaName(holidayReading.title_orig || holidayReading.title || holidayReading.memo)
-      .replace(/^Rosh Hashana\b/, "Rosh Hashanah")
       .replace(/\s+\d{4}$/, "")
       .trim();
   }

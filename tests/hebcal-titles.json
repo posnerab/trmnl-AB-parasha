@@ -1,0 +1,1458 @@
+[
+  {
+    "category": "holiday",
+    "inputs": [
+      "Asara B'Tevet",
+      "Asara B\u2019Tevet",
+      "Asara B\u2019Teves"
+    ],
+    "expected": "Asara B'Teves"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Ben-Gurion Day"
+    ],
+    "expected": "Ben-Gurion Day"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Birkat Hachamah",
+      "Birkas HaChamah"
+    ],
+    "expected": "Birkas HaChamah"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Chag HaBanot"
+    ],
+    "expected": "Chag HaBanot"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Chanukah: 1 Candle"
+    ],
+    "expected": "Chanukah: 1 Candle"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Chanukah: 2 Candles"
+    ],
+    "expected": "Chanukah: 2 Candles"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Chanukah: 3 Candles"
+    ],
+    "expected": "Chanukah: 3 Candles"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Chanukah: 4 Candles"
+    ],
+    "expected": "Chanukah: 4 Candles"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Chanukah: 5 Candles"
+    ],
+    "expected": "Chanukah: 5 Candles"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Chanukah: 6 Candles"
+    ],
+    "expected": "Chanukah: 6 Candles"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Chanukah: 7 Candles"
+    ],
+    "expected": "Chanukah: 7 Candles"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Chanukah: 8 Candles"
+    ],
+    "expected": "Chanukah: 8 Candles"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Chanukah: 8th Day"
+    ],
+    "expected": "Chanukah: 8th Day"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Erev Pesach"
+    ],
+    "expected": "Erev Pesach"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Erev Purim"
+    ],
+    "expected": "Erev Purim"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Erev Rosh Hashana"
+    ],
+    "expected": "Erev Rosh Hashanah"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Erev Shavuot",
+      "Erev Shavuos"
+    ],
+    "expected": "Erev Shavuos"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Erev Sukkot",
+      "Erev Sukkos"
+    ],
+    "expected": "Erev Succos"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Erev Tish'a B'Av",
+      "Erev Tish\u2019a B\u2019Av"
+    ],
+    "expected": "Erev Tish'a B'Av"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Erev Yom Kippur"
+    ],
+    "expected": "Erev Yom Kippur"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Family Day"
+    ],
+    "expected": "Family Day"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Hebrew Language Day"
+    ],
+    "expected": "Hebrew Language Day"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Herzl Day"
+    ],
+    "expected": "Herzl Day"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Jabotinsky Day"
+    ],
+    "expected": "Jabotinsky Day"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Lag BaOmer"
+    ],
+    "expected": "Lag BaOmer"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Leil Selichot",
+      "Leil Selichos"
+    ],
+    "expected": "Leil Selichos"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Pesach I"
+    ],
+    "expected": "Pesach I"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Pesach II"
+    ],
+    "expected": "Pesach II"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Pesach II (CH''M)",
+      "Pesach II (CH\u2019\u2019M)"
+    ],
+    "expected": "Pesach II (CH''M)"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Pesach III (CH''M)",
+      "Pesach III (CH\u2019\u2019M)"
+    ],
+    "expected": "Pesach III (CH''M)"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Pesach IV (CH''M)",
+      "Pesach IV (CH\u2019\u2019M)"
+    ],
+    "expected": "Pesach IV (CH''M)"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Pesach Sheni"
+    ],
+    "expected": "Pesach Sheni"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Pesach V (CH''M)",
+      "Pesach V (CH\u2019\u2019M)"
+    ],
+    "expected": "Pesach V (CH''M)"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Pesach VI (CH''M)",
+      "Pesach VI (CH\u2019\u2019M)"
+    ],
+    "expected": "Pesach VI (CH''M)"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Pesach VII"
+    ],
+    "expected": "Pesach VII"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Pesach VIII"
+    ],
+    "expected": "Pesach VIII"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Purim"
+    ],
+    "expected": "Purim"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Purim Katan",
+      "Purim Koton"
+    ],
+    "expected": "Purim Koton"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Purim Meshulash"
+    ],
+    "expected": "Purim Meshulash"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Adar"
+    ],
+    "expected": "Rosh Chodesh Adar"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Adar I"
+    ],
+    "expected": "Rosh Chodesh Adar I"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Adar II"
+    ],
+    "expected": "Rosh Chodesh Adar II"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Av"
+    ],
+    "expected": "Rosh Chodesh Av"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Cheshvan"
+    ],
+    "expected": "Rosh Chodesh Cheshvan"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Elul"
+    ],
+    "expected": "Rosh Chodesh Elul"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Iyyar"
+    ],
+    "expected": "Rosh Chodesh Iyyar"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Kislev"
+    ],
+    "expected": "Rosh Chodesh Kislev"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Nisan"
+    ],
+    "expected": "Rosh Chodesh Nisan"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Sh'vat",
+      "Rosh Chodesh Sh\u2019vat"
+    ],
+    "expected": "Rosh Chodesh Sh'vat"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Sivan"
+    ],
+    "expected": "Rosh Chodesh Sivan"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Tamuz"
+    ],
+    "expected": "Rosh Chodesh Tamuz"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Chodesh Tevet",
+      "Rosh Chodesh Teves"
+    ],
+    "expected": "Rosh Chodesh Teves"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Hashana"
+    ],
+    "expected": "Rosh Hashanah"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Hashana II"
+    ],
+    "expected": "Rosh Hashanah II"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Rosh Hashana LaBehemot",
+      "Rosh Hashana LaBeheimos"
+    ],
+    "expected": "Rosh Hashanah LaBeheimos"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Chazon",
+      "Shabbos Chazon"
+    ],
+    "expected": "Shabbos Chazon"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat HaChodesh",
+      "Shabbos HaChodesh"
+    ],
+    "expected": "Shabbos HaChodesh"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat HaGadol",
+      "Shabbos HaGadol"
+    ],
+    "expected": "Shabbos HaGadol"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Adar",
+      "Shabbos Mevorchim Chodesh Adar"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Adar"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Adar I",
+      "Shabbos Mevorchim Chodesh Adar I"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Adar I"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Adar II",
+      "Shabbos Mevorchim Chodesh Adar II"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Adar II"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Av",
+      "Shabbos Mevorchim Chodesh Av"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Av"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Cheshvan",
+      "Shabbos Mevorchim Chodesh Cheshvan"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Cheshvan"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Elul",
+      "Shabbos Mevorchim Chodesh Elul"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Elul"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Iyyar",
+      "Shabbos Mevorchim Chodesh Iyyar"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Iyyar"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Kislev",
+      "Shabbos Mevorchim Chodesh Kislev"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Kislev"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Nisan",
+      "Shabbos Mevorchim Chodesh Nisan"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Nisan"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Sh'vat",
+      "Shabbat Mevarchim Chodesh Sh\u2019vat",
+      "Shabbos Mevorchim Chodesh Sh\u2019vat"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Sh'vat"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Sivan",
+      "Shabbos Mevorchim Chodesh Sivan"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Sivan"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Tamuz",
+      "Shabbos Mevorchim Chodesh Tamuz"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Tamuz"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Mevarchim Chodesh Tevet",
+      "Shabbos Mevorchim Chodesh Teves"
+    ],
+    "expected": "Shabbos Mevorchim Chodesh Teves"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Nachamu",
+      "Shabbos Nachamu"
+    ],
+    "expected": "Shabbos Nachamu"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Parah",
+      "Shabbos Parah"
+    ],
+    "expected": "Shabbos Parah"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Shekalim",
+      "Shabbos Shekalim"
+    ],
+    "expected": "Shabbos Shekalim"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Shirah",
+      "Shabbos Shirah"
+    ],
+    "expected": "Shabbos Shirah"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Shuva",
+      "Shabbos Shuvah"
+    ],
+    "expected": "Shabbos Shuvah"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shabbat Zachor",
+      "Shabbos Zachor"
+    ],
+    "expected": "Shabbos Zachor"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shavuot",
+      "Shavuos"
+    ],
+    "expected": "Shavuos"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shavuot I",
+      "Shavuos I"
+    ],
+    "expected": "Shavuos I"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shavuot II",
+      "Shavuos II"
+    ],
+    "expected": "Shavuos II"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shmini Atzeret",
+      "Shmini Atzeres"
+    ],
+    "expected": "Shemini Atzeres"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shushan Purim"
+    ],
+    "expected": "Shushan Purim"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Shushan Purim Katan",
+      "Shushan Purim Koton"
+    ],
+    "expected": "Shushan Purim Koton"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Sigd"
+    ],
+    "expected": "Sigd"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Simchat Torah",
+      "Simchas Torah"
+    ],
+    "expected": "Simchas Torah"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Sukkot I",
+      "Sukkos I"
+    ],
+    "expected": "Succos I"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Sukkot II",
+      "Sukkos II"
+    ],
+    "expected": "Succos II"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Sukkot II (CH''M)",
+      "Sukkot II (CH\u2019\u2019M)",
+      "Sukkos II (CH\u2019\u2019M)"
+    ],
+    "expected": "Succos II (CH''M)"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Sukkot III (CH''M)",
+      "Sukkot III (CH\u2019\u2019M)",
+      "Sukkos III (CH\u2019\u2019M)"
+    ],
+    "expected": "Succos III (CH''M)"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Sukkot IV (CH''M)",
+      "Sukkot IV (CH\u2019\u2019M)",
+      "Sukkos IV (CH\u2019\u2019M)"
+    ],
+    "expected": "Succos IV (CH''M)"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Sukkot V (CH''M)",
+      "Sukkot V (CH\u2019\u2019M)",
+      "Sukkos V (CH\u2019\u2019M)"
+    ],
+    "expected": "Succos V (CH''M)"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Sukkot VI (CH''M)",
+      "Sukkot VI (CH\u2019\u2019M)",
+      "Sukkos VI (CH\u2019\u2019M)"
+    ],
+    "expected": "Succos VI (CH''M)"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Sukkot VII (Hoshana Raba)",
+      "Sukkos VII (Hoshana Raba)"
+    ],
+    "expected": "Succos VII (Hoshana Raba)"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Ta'anit BeHaB",
+      "Ta\u2019anit BeHaB",
+      "Ta\u2019anis BeHaB"
+    ],
+    "expected": "Ta'anis BeHaB"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Ta'anit Bechorot",
+      "Ta\u2019anit Bechorot",
+      "Ta\u2019anis Bechoros"
+    ],
+    "expected": "Ta'anis Bechoros"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Ta'anit Esther",
+      "Ta\u2019anit Esther",
+      "Ta\u2019anis Esther"
+    ],
+    "expected": "Ta'anis Esther"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Tish'a B'Av",
+      "Tish\u2019a B\u2019Av"
+    ],
+    "expected": "Tish'a B'Av"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Tish'a B'Av (observed)",
+      "Tish\u2019a B\u2019Av (observed)"
+    ],
+    "expected": "Tish'a B'Av (observed)"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Tu B'Av",
+      "Tu B\u2019Av"
+    ],
+    "expected": "Tu B'Av"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Tu BiShvat"
+    ],
+    "expected": "Tu BiShvat"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Tzom Gedaliah"
+    ],
+    "expected": "Tzom Gedaliah"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Tzom Tammuz"
+    ],
+    "expected": "Tzom Tammuz"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yitzhak Rabin Memorial Day"
+    ],
+    "expected": "Yitzhak Rabin Memorial Day"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yizkor"
+    ],
+    "expected": "Yizkor"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom HaAliyah"
+    ],
+    "expected": "Yom HaAliyah"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom HaAliyah School Observance"
+    ],
+    "expected": "Yom HaAliyah School Observance"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom HaAtzma'ut",
+      "Yom HaAtzma\u2019ut"
+    ],
+    "expected": "Yom HaAtzma'ut"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom HaShoah"
+    ],
+    "expected": "Yom HaShoah"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom HaZikaron"
+    ],
+    "expected": "Yom HaZikaron"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom Kippur"
+    ],
+    "expected": "Yom Kippur"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom Kippur Katan Adar"
+    ],
+    "expected": "Yom Kippur Katan Adar"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom Kippur Katan Adar I"
+    ],
+    "expected": "Yom Kippur Katan Adar I"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom Kippur Katan Adar II"
+    ],
+    "expected": "Yom Kippur Katan Adar II"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom Kippur Katan Av"
+    ],
+    "expected": "Yom Kippur Katan Av"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom Kippur Katan Elul"
+    ],
+    "expected": "Yom Kippur Katan Elul"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom Kippur Katan Kislev"
+    ],
+    "expected": "Yom Kippur Katan Kislev"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom Kippur Katan Nisan"
+    ],
+    "expected": "Yom Kippur Katan Nisan"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom Kippur Katan Sh'vat",
+      "Yom Kippur Katan Sh\u2019vat"
+    ],
+    "expected": "Yom Kippur Katan Sh'vat"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom Kippur Katan Sivan"
+    ],
+    "expected": "Yom Kippur Katan Sivan"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom Kippur Katan Tamuz"
+    ],
+    "expected": "Yom Kippur Katan Tamuz"
+  },
+  {
+    "category": "holiday",
+    "inputs": [
+      "Yom Yerushalayim"
+    ],
+    "expected": "Yom Yerushalayim"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Achrei Mot",
+      "Parashat Achrei Mot",
+      "Parshas Achrei Mos"
+    ],
+    "expected": "Acharei Mos"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Achrei Mot-Kedoshim",
+      "Parashat Achrei Mot-Kedoshim",
+      "Parshas Achrei Mos-Kedoshim"
+    ],
+    "expected": "Acharei Mos-Kedoshim"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Balak",
+      "Parashat Balak",
+      "Parshas Balak"
+    ],
+    "expected": "Balak"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Bamidbar",
+      "Parashat Bamidbar",
+      "Parshas Bamidbar"
+    ],
+    "expected": "Bamidbar"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Bechukotai",
+      "Parashat Bechukotai",
+      "Parshas Bechukosai"
+    ],
+    "expected": "Bechukosai"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Beha'alotcha",
+      "Parashat Beha\u2019alotcha",
+      "Parshas Beha\u2019aloscha"
+    ],
+    "expected": "Beha'aloscha"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Behar",
+      "Parashat Behar",
+      "Parshas Behar"
+    ],
+    "expected": "Behar"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Behar-Bechukotai",
+      "Parashat Behar-Bechukotai",
+      "Parshas Behar-Bechukosai"
+    ],
+    "expected": "Behar-Bechukosai"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Bereshit",
+      "Parashat Bereshit",
+      "Parshas Bereshis"
+    ],
+    "expected": "Bereishis"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Beshalach",
+      "Parashat Beshalach",
+      "Parshas Beshalach"
+    ],
+    "expected": "Beshalach"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Bo",
+      "Parashat Bo",
+      "Parshas Bo"
+    ],
+    "expected": "Bo"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Chayei Sara",
+      "Parashat Chayei Sara",
+      "Parshas Chayei Sara"
+    ],
+    "expected": "Chayei Sarah"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Chukat",
+      "Parashat Chukat",
+      "Parshas Chukas"
+    ],
+    "expected": "Chukas"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Chukat-Balak",
+      "Parashat Chukat-Balak",
+      "Parshas Chukas-Balak"
+    ],
+    "expected": "Chukas-Balak"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Devarim",
+      "Parashat Devarim",
+      "Parshas Devarim"
+    ],
+    "expected": "Devarim"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Eikev",
+      "Parashat Eikev",
+      "Parshas Eikev"
+    ],
+    "expected": "Eikev"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Emor",
+      "Parashat Emor",
+      "Parshas Emor"
+    ],
+    "expected": "Emor"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Ha'azinu",
+      "Parashat Ha\u2019azinu",
+      "Parshas Ha\u2019azinu"
+    ],
+    "expected": "Ha'azinu"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Kedoshim",
+      "Parashat Kedoshim",
+      "Parshas Kedoshim"
+    ],
+    "expected": "Kedoshim"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Ki Tavo",
+      "Parashat Ki Tavo",
+      "Parshas Ki Savo"
+    ],
+    "expected": "Ki Savo"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Ki Teitzei",
+      "Parashat Ki Teitzei",
+      "Parshas Ki Seitzei"
+    ],
+    "expected": "Ki Seitzei"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Ki Tisa",
+      "Parashat Ki Tisa",
+      "Parshas Ki Sisa"
+    ],
+    "expected": "Ki Sisa"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Korach",
+      "Parashat Korach",
+      "Parshas Korach"
+    ],
+    "expected": "Korach"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Lech-Lecha",
+      "Parashat Lech-Lecha",
+      "Parshas Lech-Lecha"
+    ],
+    "expected": "Lech Lecha"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Masei",
+      "Parashat Masei",
+      "Parshas Masei"
+    ],
+    "expected": "Masei"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Matot",
+      "Parashat Matot",
+      "Parshas Matos"
+    ],
+    "expected": "Matos"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Matot-Masei",
+      "Parashat Matot-Masei",
+      "Parshas Matos-Masei"
+    ],
+    "expected": "Matos-Masei"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Metzora",
+      "Parashat Metzora",
+      "Parshas Metzora"
+    ],
+    "expected": "Metzora"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Miketz",
+      "Parashat Miketz",
+      "Parshas Miketz"
+    ],
+    "expected": "Mikeitz"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Mishpatim",
+      "Parashat Mishpatim",
+      "Parshas Mishpatim"
+    ],
+    "expected": "Mishpatim"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Nasso",
+      "Parashat Nasso",
+      "Parshas Nasso"
+    ],
+    "expected": "Nasso"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Nitzavim",
+      "Parashat Nitzavim",
+      "Parshas Nitzavim"
+    ],
+    "expected": "Nitzavim"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Nitzavim-Vayeilech",
+      "Parashat Nitzavim-Vayeilech",
+      "Parshas Nitzavim-Vayeilech"
+    ],
+    "expected": "Nitzavim-Vayeilech"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Noach",
+      "Parashat Noach",
+      "Parshas Noach"
+    ],
+    "expected": "Noach"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Pekudei",
+      "Parashat Pekudei",
+      "Parshas Pekudei"
+    ],
+    "expected": "Pekudei"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Pinchas",
+      "Parashat Pinchas",
+      "Parshas Pinchas"
+    ],
+    "expected": "Pinchas"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Re'eh",
+      "Parashat Re\u2019eh",
+      "Parshas Re\u2019eh"
+    ],
+    "expected": "Re'eh"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Sh'lach",
+      "Parashat Sh\u2019lach",
+      "Parshas Sh\u2019lach"
+    ],
+    "expected": "Shelach"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Shemot",
+      "Parashat Shemot",
+      "Parshas Shemos"
+    ],
+    "expected": "Shemos"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Shmini",
+      "Parashat Shmini",
+      "Parshas Shmini"
+    ],
+    "expected": "Shemini"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Shoftim",
+      "Parashat Shoftim",
+      "Parshas Shoftim"
+    ],
+    "expected": "Shoftim"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Tazria",
+      "Parashat Tazria",
+      "Parshas Tazria"
+    ],
+    "expected": "Tazria"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Tazria-Metzora",
+      "Parashat Tazria-Metzora",
+      "Parshas Tazria-Metzora"
+    ],
+    "expected": "Tazria-Metzora"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Terumah",
+      "Parashat Terumah",
+      "Parshas Terumah"
+    ],
+    "expected": "Terumah"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Tetzaveh",
+      "Parashat Tetzaveh",
+      "Parshas Tetzaveh"
+    ],
+    "expected": "Tetzaveh"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Toldot",
+      "Parashat Toldot",
+      "Parshas Toldos"
+    ],
+    "expected": "Toldos"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Tzav",
+      "Parashat Tzav",
+      "Parshas Tzav"
+    ],
+    "expected": "Tzav"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Vaera",
+      "Parashat Vaera",
+      "Parshas Vaera"
+    ],
+    "expected": "Va'eira"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Vaetchanan",
+      "Parashat Vaetchanan",
+      "Parshas Vaeschanan"
+    ],
+    "expected": "Va'eschanan"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Vayakhel",
+      "Parashat Vayakhel",
+      "Parshas Vayakhel"
+    ],
+    "expected": "Vayakhel"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Vayakhel-Pekudei",
+      "Parashat Vayakhel-Pekudei",
+      "Parshas Vayakhel-Pekudei"
+    ],
+    "expected": "Vayakhel-Pekudei"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Vayechi",
+      "Parashat Vayechi",
+      "Parshas Vayechi"
+    ],
+    "expected": "Vayechi"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Vayeilech",
+      "Parashat Vayeilech",
+      "Parshas Vayeilech"
+    ],
+    "expected": "Vayeilech"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Vayera",
+      "Parashat Vayera",
+      "Parshas Vayera"
+    ],
+    "expected": "Vayeira"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Vayeshev",
+      "Parashat Vayeshev",
+      "Parshas Vayeshev"
+    ],
+    "expected": "Vayeishev"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Vayetzei",
+      "Parashat Vayetzei",
+      "Parshas Vayetzei"
+    ],
+    "expected": "Vayeitzei"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Vayigash",
+      "Parashat Vayigash",
+      "Parshas Vayigash"
+    ],
+    "expected": "Vayigash"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Vayikra",
+      "Parashat Vayikra",
+      "Parshas Vayikra"
+    ],
+    "expected": "Vayikra"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Vayishlach",
+      "Parashat Vayishlach",
+      "Parshas Vayishlach"
+    ],
+    "expected": "Vayishlach"
+  },
+  {
+    "category": "parashat",
+    "inputs": [
+      "Yitro",
+      "Parashat Yitro",
+      "Parshas Yisro"
+    ],
+    "expected": "Yisro"
+  }
+]

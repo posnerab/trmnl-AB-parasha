@@ -73,3 +73,33 @@ test("prefers the weekly parasha when Hebcal provides one", () => {
 
   assert.equal(result.parasha, "Shelach");
 });
+
+for (const { category, inputs, expected } of require('./hebcal-titles.json')) {
+  test(`corpus ${category}: ${inputs[0]}`, () => {
+    for (const source of [...inputs, expected]) {
+      for (const field of ['title_orig', 'title', 'memo']) {
+        const result = buildPayload(fixture([{
+          category, date: '2026-09-12', [field]: source,
+          leyning: { torah: 'A reading' }
+        }]), { now: '2026-09-06T10:00:00-05:00' });
+        assert.equal(result.parasha, expected, `${field}: ${source}`);
+      }
+    }
+  });
+}
+
+for (const [source, expected] of [
+  ['Shemini Atzeret', 'Shemini Atzeres'],
+  ['Shmini Atzeres', 'Shemini Atzeres'],
+  ['Shabbos Chol ha-Moed Sukkos', 'Shabbos Chol HaMoed Succos'],
+  ['Parshas Chayei Sarah', 'Chayei Sarah'],
+  ['Parshas Nasso', 'Nasso'],
+  ['Unknown NasoSuffix', 'Unknown NasoSuffix'],
+  ['Rosh Hashanah 5787', 'Rosh Hashanah']
+]) {
+  test(`safe normalization: ${source}`, () => {
+    assert.equal(buildPayload(fixture([{
+      category: 'holiday', date: '2026-09-12', title: source, leyning: {}
+    }]), { now: '2026-09-06T10:00:00-05:00' }).parasha, expected);
+  });
+}
